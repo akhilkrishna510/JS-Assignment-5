@@ -1,0 +1,21 @@
+body{
+    margin: 5mm;
+}
+.image{
+    color: rgb(238, 10, 10);
+    background-color: rgb(176, 240, 171);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10mm;
+}
+.image p{
+    color: rgb(37, 19, 8);
+}
+img{
+    display: block;
+}
+button{
+    padding: 7px;
+}

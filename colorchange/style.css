@@ -1,0 +1,31 @@
+body{
+    background-attachment: fixed;
+    background-size: auto;
+}
+.colorchange{
+    color:rgb(255, 123, 0); 
+    background: linear-gradient(to right,#d8da85,#e09fdb);
+    height: 45mm;
+    display: flex;
+    justify-content: center; 
+}
+.colorchange h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.colorchange p{
+    color: rgb(121, 119, 119);
+}
+.select{
+    display: flex;
+    justify-content: center;
+}
+.select input{
+    color: #ffffff;
+    background-color: rgb(124, 121, 121);
+    border-color: #fff;
+    margin-left: 1rem;
+    padding: 5px;
+    opacity: .8;
+    cursor: pointer;
+}
